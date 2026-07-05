@@ -186,7 +186,7 @@ words = ["cat", "elephant", "dog", "computer"]
 res=reduce(lambda x,y: x if len(x)>=len(y) else y,words)
 
 #4
-words = ["Python", "is", "very", "useful"]
+words = ["Python", "is", "very", "useful","vary"]
 res=reduce(lambda x,y: x+ " "+y,words)
 print(res)
 
@@ -198,4 +198,3 @@ students = [
     {"name": "Gil", "grade": 95}
 ]
 res=reduce(lambda x,y: x if x["grade"]>y["grade"] else y,students)
-print(res)
